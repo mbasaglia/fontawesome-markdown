@@ -16,13 +16,14 @@ magic unfold:
 .. code-block:: python
 
     >>> from markdown import Markdown
+    >>> from fontawesome_markdown import FontAwesomeExtension   
 
-    >>> markdown = Markdown(extensions=['fontawesome_markdown']
+    >>> markdown = Markdown(extensions=[FontAwesomeExtension()]
     >>> markdown.convert('i ♥ :fa-coffee:')
     <p>i ♥ <i class="fa fa-coffee"></i></p>
 
-    >>> markdown.convert('i ♥ :far fa-fontawesome: fa-x3')
-    <p>i ♥ <i class="far fa-coffee fa-x3"></i></p>
+    >>> markdown.convert('i ♥ :fab fa-font-awesome fa-3x:')
+    <p>i ♥ <i class="fab fa-font-awesome fa-3x"></i></p>
 
 
 Don't forget to make the Font Awesome v5.2 assets available to your DOM, and you're done!
