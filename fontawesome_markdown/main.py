@@ -5,7 +5,7 @@ import xml.etree.ElementTree as etree
 from .icon_list import icons
 import json
 
-fontawesome_pattern = r':(fa[bsrl]?)?\s?fa-([-\w]+)\s?(fa-(xs|sm|lg|[\d+]x|10x))?:'
+fontawesome_pattern = r':(fa[bsrl]?)?\s?fa-([-\w]+)\s?(fa-(fw|xs|sm|lg|[\d+]x|10x))?:'
 
 prefix_to_style = {
     'fas': 'solid',
