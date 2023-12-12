@@ -5,7 +5,7 @@ import itertools
 import pprint
 
 URI = ('https://raw.githubusercontent.com'
-       '/FortAwesome/Font-Awesome/master/advanced-options/metadata/icons.json')
+       '/FortAwesome/Font-Awesome/5.x/metadata/icons.json')
 
 
 def main():
